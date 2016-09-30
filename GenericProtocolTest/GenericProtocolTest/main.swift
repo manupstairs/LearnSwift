@@ -8,5 +8,15 @@
 
 import Foundation
 
-print("Hello, World!")
+let print0 = TypePrinter0()
+print0.PrintType(output: "String Type")
+
+let print2 = TypePrinter2()
+print2.PrintType(output: SomeType())
+
+let print3 = TypePrinter3()
+print3.PrintType(output: "String Type")
+
+
+
 
