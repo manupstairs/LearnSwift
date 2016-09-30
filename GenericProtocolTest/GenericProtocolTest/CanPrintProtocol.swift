@@ -38,6 +38,13 @@ class TypePrinter2<E: SomeType> : CanPrint{
     }
 }
 
+class TypePrinter4<E> : CanPrint{
+    
+    func PrintType(output: E) {
+        print(output)
+    }
+}
+
 class TypePrinter3: CanPrintBase<String>{
     
     override func PrintType(output: String){

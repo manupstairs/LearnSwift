@@ -17,6 +17,5 @@ print2.PrintType(output: SomeType())
 let print3 = TypePrinter3()
 print3.PrintType(output: "String Type")
 
-
-
-
+let print4 = TypePrinter4<SomeType>()
+print4.PrintType(output: SomeType())
