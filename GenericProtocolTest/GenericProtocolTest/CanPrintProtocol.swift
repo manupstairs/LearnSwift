@@ -36,6 +36,16 @@ class TypePrinter2<E: SomeType> : CanPrint{
     func PrintType(output: E) {
         print(output)
     }
+
+}
+
+class TypePrinter5 : CanPrint{
+    
+    typealias E = SomeType
+    
+    func PrintType(output: E) {
+        print(output)
+    }
 }
 
 class TypePrinter4<E> : CanPrint{
