@@ -20,11 +20,12 @@ print3.PrintType(output: "String Type")
 let print4 = TypePrinter4<SomeType>()
 print4.PrintType(output: SomeType())
 
+let print6 = TypePrinter4<String>()
+print6.PrintType(output: "I am a String")
+
 
 let print5 = TypePrinter5();
-
 print(type(of: print5))
-
 print(type(of: print2))
 //
 //var printArray = Array<TypePrinter2<SomeType>>()
