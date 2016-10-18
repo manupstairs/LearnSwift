@@ -30,3 +30,10 @@ print(type(of: print2))
 //
 //var printArray = Array<TypePrinter2<SomeType>>()
 //printArray.append(print2,print5)
+
+
+var car = Car<UnleadedGasoline<CleanExhaust>, CleanExhaust>()
+car.drive(fuel: UnleadedGasoline<CleanExhaust>()).emit()
+
+var fusion = Car1<UnleadedGasoline<CleanExhaust>>()
+fusion.drive(fuel: UnleadedGasoline<CleanExhaust>()).emit()
