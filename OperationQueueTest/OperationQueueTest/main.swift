@@ -3,7 +3,7 @@ import Foundation
 class OperationTest {
     
     func sampleCodeOne (){
-        let operationQueue: OperationQueue = OperationQueue.main
+        let operationQueue: OperationQueue = OperationQueue()
         let completionBlockOperation: BlockOperation = BlockOperation(
             block: {
                 print("completion Block is getting called")
@@ -34,4 +34,8 @@ class OperationTest {
 let test = OperationTest()
 test.sampleCodeOne()
 
-//readLine(strippingNewline: true)
+//let test1 = BlockOperationSample1()
+//test1.blockOperationsTest1()
+
+readLine(strippingNewline: true)
+
